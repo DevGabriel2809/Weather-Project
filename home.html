@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Weather View</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="components/imgs/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <section>
+        <div id="Weather-View">  
+            <h2 class="locate">City-State</h2>
+            <h4 class="time">Time</h4>
+            <div> 
+                <img class="Wea-Indicator"  src="" alt="Weather Indicator (icons)">
+            </div>
+
+            <article> 
+                <h2 class="temperature">Temperature</h2>
+            </article>
+
+            <h3 class="Locate-country">Country</h3>
+        </div>
+        </section>
+
+
+        <aside>
+            <input type="text" id="searchBox" placeholder="Buscar Cidade" onkeyup="searchCity()">
+            <ul id="cityList"></ul>
+        </aside>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
